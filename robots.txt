@@ -1,0 +1,52 @@
+User-agent: *
+
+Allow: /
+Disallow: /bootstrap-3.3.6/
+Disallow: /css/
+Disallow: /images/
+Disallow: /img/
+Disallow: /uploads/
+Disallow: /js/
+
+Disallow: /dyn/
+
+Disallow: /html/
+Disallow: /respond/
+Disallow: /goodjob/
+Disallow: /xmod/
+Disallow: /fancybox/
+Disallow: /attention.html
+
+
+Disallow: /404.html
+
+
+Disallow: /woodmat2.html
+
+
+Disallow: /woodmat3.html
+
+
+Disallow: /woodmat4.html
+
+
+Disallow: /woodmat5.html
+
+
+Disallow: /woodmat6.html
+
+
+Disallow: /unicolors2.html
+
+
+Disallow: /unicolors3.html
+
+
+Disallow: /BingSiteAuth.xml
+Disallow: /fsg4b5df.txt
+Disallow: /fsgcfde6.txt
+Disallow: /googlecd2ceb0318b53a95.html
+Disallow: /yandex_75d8da7f9832cb87.html
+Disallow: /wmail_7134fd1e614be1c2efd1d51a3fe19856.html
+Host: m-btd.ru
+Sitemap: http://m-btd.ru/sitemap.xml

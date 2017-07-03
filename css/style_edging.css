@@ -1,0 +1,44 @@
+@charset "utf-8";.description2{font-size:14px;color:#000000;}
+.edge_important_info{border:solid 1px #f8f8ff;padding:3px;}
+.backcolor2{background:#FFFFFF;margin-right:auto;margin-left:auto;padding-left:10px;padding-right:10px;padding-top:2%;padding-bottom:1%;}
+@media (min-width:768px){.backcolor2{width:720px;margin-right:auto;margin-left:auto;padding-left:10px;padding-right:10px;}
+}
+@media (min-width:992px){.backcolor2{width:940px;margin-right:auto;margin-left:auto;padding-left:10px;padding-right:10px;}
+}
+@media (min-width:1200px){.backcolor2{width:1140px;margin-right:auto;margin-left:auto;padding-left:10px;padding-right:10px;}
+}
+#title_about{color:#333;font-size:21px;line-height:30px;text-align:center;}
+.title_description{font-size:15px;line-height:25px;margin-bottom:30px;}
+@media (max-width:991px){.banner_description{padding:0px 10px 40px;}
+}
+@media (max-width:991px){.banner_description{padding:0px 10px 40px;}
+}
+.banner_description{margin-top:-32px;padding:10px 30px 10px;}
+.banner_description h3 a:hover{color:#ffffff;}
+@media screen and (max-width:1199px){.banner_description{background:transparent;padding:10px 0px 1px !important;}
+}
+.bannera_description{margin-top:0px !important;padding:10px 30px 10px;}
+.rownone{margin-left:0px !important;margin-right:0px !important;}
+.title_desc{margin-bottom:0px !important;}
+.orig{margin-bottom:40px;}
+@media (min-width:490px){.ignore{margin-top:0px !important;}
+.gent{text-align:left;font-size:14px;font-weight:bold;padding-left:15px;}
+.title_description{font-size:14px;line-height:25px;margin-bottom:30px;}
+}
+@media (min-width:380px) and (max-width:490px){.ignore{margin-top:0px !important;}
+.gent{text-align:center;font-size:12px;font-weight:bold;}
+.title_description{font-size:12px;line-height:25px;margin-bottom:30px;}
+}
+@media (min-width:363px) and (max-width:380px){.ignore{margin-top:0px !important;}
+.gent{text-align:center;font-size:12px;font-weight:bold;}
+.title_description{font-size:12px;line-height:25px;margin-bottom:30px;}
+.orig{margin-bottom:50px !important;}
+}
+@media (min-width:320px) and (max-width:363px){.gent{text-align:center;font-size:12px;font-weight:bold;}
+.ignore{margin-top:0px !important;}
+.title_description{font-size:11px;line-height:25px;margin-bottom:30px;}
+.orig{margin-bottom:50px !important;}
+}
+.color_ground{background-color:#e6e6e6 !important;}
+@media (max-width:720px){.max_hidden_block{font-size:0px !important;}}
+.text_ground_col{color:#f66414;}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*contacts page start*/
+#map-container{height:30%}
+#map-outer{height:440px;padding:15px;margin-bottom:20px;background-color:#FFF}
+#map-container{height:400px;margin-bottom:65px;}
+@media all and (max-width:991px){#map-outer{height:650px;}
+}
+/*contacts page end*/
+@media all and (min-width:991px){.centadmax{padding:15% 20% 20% 20%;font-size:14px;display:block;}/*contacts*/
+}
+@media all and (min-width:991px){.centadmin{display:none;}/*contacts*/
+}
+@media all and (max-width:991px){.centadmax{display:none;}/*contacts*/
+}
+@media all and (max-width:991px){.centadmin{padding-left:10%;font-size:12px;display:block;}/*contacts*/
+}

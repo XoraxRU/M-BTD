@@ -1,0 +1,31 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.m-btd.ru$ [NC]
+RewriteRule ^(.*)$ http://m-btd.ru/$1 [R=301,L]
+</IfModule>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript
+</IfModule>
+
+<IfModule mod_expires.c>
+	<FilesMatch \.(gif|png|jpg|jpeg|ogg|asf|asx|wax|wmx|wm)$>
+		ExpiresDefault "access plus 1 week"
+	</FilesMatch>
+	ExpiresActive on
+		ExpiresByType image/jpeg "access plus 1 week"
+		ExpiresByType image/gif "access plus 1 week"
+		ExpiresByType image/png "access plus 1 week"
+	<FilesMatch \.(css|js)$>
+		ExpiresDefault "access plus 1 week"
+	</FilesMatch>
+		ExpiresByType text/css "access plus 1 week"
+		ExpiresByType text/javascript "access plus 1 week"
+		ExpiresByType text/html "access plus 1 week"
+		ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
+
+ErrorDocument 404 /404.html
+RewriteCond %{REQUEST_URI} ^/privet-mir.*
+RewriteRule . - [R=404,L,NC]
