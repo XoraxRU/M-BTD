@@ -48,5 +48,6 @@ Disallow: /fsgcfde6.txt
 Disallow: /googlecd2ceb0318b53a95.html
 Disallow: /yandex_75d8da7f9832cb87.html
 Disallow: /wmail_7134fd1e614be1c2efd1d51a3fe19856.html
+Disallow: /gallery.html
 Host: m-btd.ru
 Sitemap: http://m-btd.ru/sitemap.xml
