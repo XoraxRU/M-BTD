@@ -15,7 +15,6 @@
         <link rel="stylesheet" href="css/style.css" type="text/css">
                 <link rel="stylesheet" href="css/style_index.css" type="text/css">
         <link rel="stylesheet" href="bootstrap-3.3.6/dist/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/ninja-slider.css">
                 <!--
                 <link rel="icon" type="image/ico" href="img/favicon.ico" />
                 <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
@@ -102,7 +101,7 @@
 			<div class="gen_navigation">
 	                        <ul>
 	                                <li>
-	                                        <a href="" onclick="kitchen_mod_view()">Кухня</a>
+	                                        <a href="">Кухня</a>
 	                                </li>
 	                                <li>
 	                                        <a href="">Прихожая</a>
@@ -144,25 +143,13 @@
 				<div class="ad23"></div>
 			</div>
 		</div>
-		<div id="kitchen_mod_obj" style="display:none;">
-			<div id="khn_gal" style="display:none;">
-				<img src="/uploads/photoalbum/IMG_2130-08-06-17-09-12.JPG" style="width:auto;height:140px;" />
-	                        <img src="/uploads/photoalbum/IMG_2131-08-06-17-09-12.JPG" style="width:auto;height:140px;" />
-	                        <img src="/uploads/photoalbum/IMG_2132-08-06-17-09-12.JPG" style="width:auto;height:140px;" />
-	                        <img src="/uploads/photoalbum/IMG_2337-08-06-17-09-12.JPG" style="width:auto;height:140px;" />
-	                        <img src="/uploads/photoalbum/IMG_2338-08-06-17-09-12.JPG" style="width:auto;height:140px;" />
-			</div>
-                </div>
 	</section>
 <style>
-	/*general block*/
 	.gen_obj{position:relative;width:100%;height:448px;}
 	.gen_background{background-image: url(img/background/7103377717_24d3fdea40_b.jpg);background-repeat: no-repeat;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;position:absolute;z-index:1;height:100%;width:100%;opacity:0.6;/*background-position: center;*/}
 	.gen_navigation{position:absolute;top:30%;left:35%;z-index:1;}
 	.gen_navigation ul{list-style: none;font-size:20px;text-align:center;line-height:1.7;padding-left:0;width:106px;}
 	.gen_navigation ul a{color: #000;}
-	/*modal window*/
-	#mod_obj{position:absolute;width:100%; height:100%;background-color:#333;z-index:999999;top:0;}
 
 @media (max-width: 320px) and (max-width: 321px) {
 	.ad1{position: absolute;width: 1px;height: 22%;background-color: rgba(83, 83, 83, 0.37);left: 22.7%;z-index: 1;transform: rotate(-58deg);top: -1.9%;}
@@ -199,12 +186,12 @@
         .ad3{position: absolute;width: 1px;height: 7%;background-color: rgba(83, 83, 83, 0.37);left: 53.5%;z-index: 1;transform: rotate(-51deg);top: 14.6%;}
         .ad4{position: absolute;width: 1px;height: 34.5%;background-color: rgba(83, 83, 83, 0.37);left: 78.5%;z-index: 1;transform: rotate(-90deg);top: 3.2%;}
         .ad5{position: absolute;width: 1px;height: 43.5%;background-color: rgba(83, 83, 83, 0.37);left: 72.7%;z-index: 1;transform: rotate(-90deg);top: -7.2%;}
-        .ad6{position: absolute;width: 2px;height: 31%;background-color: rgba(247, 247, 247, 0.73);left: 58%;z-index: 1;bottom: -11px;transform: rotate(32deg);}
+        .ad6{position: absolute;width: 2px;height: 31%;background-color: #ff6c00;left: 58%;z-index: 1;bottom: -11px;transform: rotate(32deg);}
         .ad7{position: absolute;width: 1px;height: 46%;background-color: rgba(83, 83, 83, 0.37);left: 43%;z-index: 1;transform: rotate(-52deg);top: -10%;}
         .ad8{position: absolute;width: 1px;height: 46.0%;background-color: rgba(83, 83, 83, 0.37);left: 71.3%;z-index: 1;transform: rotate(-90deg);top: -12.1%;}
         .ad9{position: absolute;width: 1px;height: 14.6%;background-color: rgba(83, 83, 83, 0.37);left: 18.1%;z-index: 1;transform: rotate(-90deg);top: 5.3%;}
-        .ad10{position: absolute;width: 1px;height: 41.9%;background-color: rgba(83, 83, 83, 0.37);left: 73.6%;z-index: 1;transform: rotate(-90deg);top:-5.1%;}
-        .ad11{display:none;position: absolute;width: 1px;height: 100%;background-color: rgba(83, 83, 83, 0.37);left: 8.8%;z-index: 1;transform: rotate(0deg);top: 0%;}
+        .ad10{position: absolute;width: 1px;height: 64.5%;background-color: rgba(83, 83, 83, 0.37);left: 53.9%;z-index: 1;transform: rotate(-90deg);top: -16.6%;}
+        .ad11{position: absolute;width: 1px;height: 100%;background-color: rgba(83, 83, 83, 0.37);left: 8.8%;z-index: 1;transform: rotate(0deg);top: 0%;}
         .ad12{display:none;position: absolute;width: 1px;height: 18.5%;background-color: rgba(83, 83, 83, 0.37);left:20.5%;z-index: 1;transform: rotate(-90deg);top: 6.4%;}
         .ad13{display:none;position: absolute;width: 1px;height: 27%;background-color: rgba(83, 83, 83, 0.37);left: 82.5%;z-index: 1;transform: rotate(-90deg);top: 9.5%;}
         .ad14{display:none;position: absolute;width: 1px;height: 16%;background-color: rgba(83, 83, 83, 0.37);left: 24.6%;z-index: 1;transform: rotate(-90deg);top: 15.2%;}
@@ -243,43 +230,6 @@
 	 .schema {display:none;}
 }
 </style>
-
-<script type="text/javascript">
-function kitchen_mod_view() {
-       	var div = document.getElementById("kitchen_mod_obj");
-       	if (div.style.display !== "none") {
-		div.style.display = "none";
-       	} else {
-		div.style.display = "block";
-	}
-}
-</script>
-
-<script>
-    function lightbox(idx) {
-        //Show the slider wrapper
-        var ninjaSldr = document.getElementById("ninja-slider");
-        ninjaSldr.parentNode.style.display = "block";
-
-        //Then init the slider
-        //Note: The { initSliderByCallingInitFunc: true } option in the 
-        // ninja-slider.js tells the page not to initiate the slider
-        // unless the following init(idx) function is called.
-        nslider.init(idx);
-
-        //Then mimic clicking the fullscreen button to popup the modal
-        var fsBtn = document.getElementById("fsBtn");
-        fsBtn.click();
-    }
-
-    function fsIconClick(isFullscreen) {
-        //Note: fsIconClick is the default event handler of the fullscreen button
-        if (isFullscreen) {
-            var ninjaSldr = document.getElementById("ninja-slider");
-            ninjaSldr.parentNode.style.display = "none";
-        }
-    }
-</script>
 
 <!--BUTTON BACK TO TOP START-->
 	<div class="gotop affix" data-spy="affix" data-offset-top="200">
@@ -436,7 +386,6 @@ function kitchen_mod_view() {
                                 addScript('js/google.js');
                                 addScript('js/yandex.js');
                         </script>
-			<script src="js/ninja-slider.js" type="text/javascript"></script>
                         <!--[if lt IE 8]>
                                 <script src="html/dist/html5shiv.js" type="text/javascript"></script>
                         <![endif]-->
